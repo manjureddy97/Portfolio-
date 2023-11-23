@@ -1,0 +1,31 @@
+.home{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    // background-color: red;
+
+
+
+    &__text-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        // background-color: green;
+        h1{
+            color: var(  --yellow-theme-main-color);
+            margin: 0;
+            font-weight: 500;
+            font-size: 4rem;
+            line-height: 5rem;
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+            
+        }
+
+    }
+}
