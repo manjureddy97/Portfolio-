@@ -1,6 +1,6 @@
 import {Routes,Route,useLocation} from 'react-router-dom'
 import Home from './components/containers/home/Home'
-import About from './components/containers/about/components'
+import About from './components/containers/about/About'
 import Resume from './components/containers/resume/Resume'
 import Skills from './components/containers/skills/Skills'
 import Portfolio from './components/containers/portfolio/Portfolio'
