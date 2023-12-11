@@ -19,17 +19,17 @@ function Skills() {
     <div key={index} className='skills__contentWrapper__inner-content'>
       <Animate
         play
-        duration={1}
-        delay={0.3}
+        duration={1.5}
+ delay={1}
         start={{
-          transform: 'translateX(-200)',
+          transform: 'translateX(-900)',
         }}
         end={{
           transform: 'translateY(0px)',
         }}
       >
         <h3 className='skills__contentWrapper__inner-content__category-text'>{item.label}</h3>
-        <div>
+        <div className='skills__contentWrapper__inner-content__progressbar-contaier'>
           {item.data && item.data.map((skillItem, j) => (
             <AnimateKeyframes
               play
